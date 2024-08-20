@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?cs=srgb&dl=pexels-goumbik-349609.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantener el fondo fijo al hacer scroll */
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.recipe img {
+    display: block;
+    margin: 0 auto 20px;
+    width: auto;
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.recipe h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recipe ul, .recipe ol {
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+.Indications{
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.Indications h2{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.Indications ol, .Indications ul{
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+.tips, .variations {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tips h2, .variations h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tips ul, .tips ol{
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+.variations ul, .variations ol{
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.healthy {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.healthy ul, .healthy ol{
+    margin: 0 auto 20px auto;
+    padding-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+.healthy h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para contraste */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .recipe img {
+        max-height: 200px;
+    }
+    .tips, .variations {
+        margin-bottom: 10px;
+    }
+
+    header {
+        height:
+    }

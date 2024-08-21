@@ -12,6 +12,36 @@ body {
     text-align: center;
 }
 
+.time-info {
+    display: flex; /* Alineación horizontal */
+    justify-content: center; /* Centrar las cajas dentro del contenedor */
+    gap: 10px; /* Espacio entre las cajas */
+    margin-bottom: 20px;
+}
+
+.time-box {
+    background-color: rgba(245, 245, 245, 0.9); /* Fondo semitransparente */
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-basis: 100px; /* Ancho fijo para cada caja */
+    flex-shrink: 0; /* Evita que las cajas se reduzcan */
+}
+
+.time-box h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.time-box p {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
 header {
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
     padding: 20px;
@@ -154,6 +184,5 @@ footer {
         margin-bottom: 10px;
     }
 
-    header {
-        height:
-    }
+    
+}
